@@ -73,7 +73,7 @@ ellipse (x1+60,y1+60,10,10);
 }
   void show(){
     fill(255);
-    rect (x1,y1,60,60);
+    rect (x1,y1,70,70);
     }
 		
 }
