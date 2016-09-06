@@ -1,6 +1,6 @@
 void setup()
 {
-	size (800,900);
+	size (1000,1000);
 	textSize(30);
 	for(int x=50; x<600; x=x+50)
 	noLoop();
