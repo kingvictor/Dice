@@ -2,7 +2,6 @@ void setup()
 {
 	size (800,400)
 	int numDot = 0;
-	background(255,255,255);
 	textSize(30);
 	for(int x=50; x<600; x=x+50)
 	{
@@ -12,6 +11,9 @@ void setup()
 void draw()
 {
 	//your code here
+	background(255,255,255);
+	int (myX,myY)
+	
 }
 void mousePressed()
 {
