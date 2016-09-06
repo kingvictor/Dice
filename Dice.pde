@@ -1,5 +1,12 @@
 void setup()
 {
+	size (800,400)
+	int numDot = 0;
+	background(255,255,255);
+	textSize(30);
+	for(int x=50; x<600; x=x+50)
+	{
+		for(int y=25; y<300; y=y+50)
 	noLoop();
 }
 void draw()
