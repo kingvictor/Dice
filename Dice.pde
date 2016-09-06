@@ -9,8 +9,8 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
-for(int y = 50; y<500000; y+=100){
-	for(int x = 50; x<500000; x+=100){
+for(int y = 50; y<50000000000; y+=100){
+	for(int x = 50; x<50000000000; x+=100){
   Die dice = new Die(x,y);
   dice.show();
   dice.roll();
