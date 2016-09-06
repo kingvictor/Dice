@@ -9,9 +9,13 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
-	Die dice = new Die(200,200);
-	dice.show();
-	dice.roll();
+for(int y = 50; y<750; y+=50){
+	for(int x = 50; x<750; x+=50){
+  Die dice = new Die(x,y);
+  dice.show();
+  dice.roll();
+}
+	}
 	
 }
 void mousePressed()
