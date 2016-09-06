@@ -70,9 +70,10 @@ ellipse (x1+60,y1+40,10,10);
 ellipse (x1+20,y1+60,10,10);
 ellipse (x1+60,y1+60,10,10);
 }
-	}
-	void show(){
-		rect (x1,y1,60,60);
-	}
+}
+  void show(){
+    fill(255);
+    rect (x1,y1,60,60);
+    }
 		
 }
