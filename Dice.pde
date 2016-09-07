@@ -1,4 +1,5 @@
 int k = 2;
+int r = 40;
 void setup()
 {
 	size (1336,1100);
@@ -77,7 +78,7 @@ ellipse (x1+30,y1+30,k,k);
 }
   void show(){
     fill(255);
-    rect (x1,y1,40,40);
+    rect (x1,y1,r,r);
     }
 		
 }
