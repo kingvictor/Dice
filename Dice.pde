@@ -1,4 +1,4 @@
-int k = 5;
+int k = 2;
 void setup()
 {
 	size (1336,1100);
