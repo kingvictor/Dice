@@ -61,7 +61,7 @@ else if (value==5)
 ellipse (x1+20,y1+20,10,10);
 ellipse (x1+60,y1+20,10,10);
 ellipse (x1+40,y1+40),10,10;
-		ellipse (x1+20,y1+60,10,10);
+ellipse (x1+20,y1+60,10,10);
 ellipse (x1+60,y1+60,10,10);
 }
 else if (value==6)
@@ -76,7 +76,7 @@ ellipse (x1+60,y1+60,10,10);
 }
   void show(){
     fill(255);
-    rect (x1,y1,80,80);
+    rect (x1,y1,90,90);
     }
 		
 }
