@@ -36,47 +36,47 @@ class Die //models one single dice cube
 	{
 		if (value==1)
  {
-		ellipse (x1+40, y1+40,10,10);
+		ellipse (x1+20, y1+20,5,5);
  }
 else if (value==2)
 {
-ellipse (x1+20, y1+20,10,10);
-ellipse (x1+60, y1+60,10,10);
+ellipse (x1+10, y1+10,5,5);
+ellipse (x1+30, y1+30,5,5);
 }
 else if (value==3)
 {
-ellipse (x1+20,y1+20,10,10);
-ellipse (x1+40,y1+40,10,10);
-ellipse (x1+60,y1+60,10,10);
+ellipse (x1+10,y1+10,5,5);
+ellipse (x1+20,y1+20,5,5);
+ellipse (x1+30,y1+30,5,5);
 }
 else if (value==4)
 {
-ellipse (x1+20,y1+20,10,10);
-ellipse (x1+60,y1+20,10,10);
-ellipse (x1+20,y1+60,10,10);
-ellipse (x1+60,y1+60,10,10);
+ellipse (x1+10,y1+10,5,5);
+ellipse (x1+30,y1+10,5,5);
+ellipse (x1+10,y1+30,5,5);
+ellipse (x1+30,y1+30,5,5);
 }
 else if (value==5)
 {
-ellipse (x1+20,y1+20,10,10);
-ellipse (x1+60,y1+20,10,10);
-ellipse (x1+40,y1+40),10,10;
-ellipse (x1+20,y1+60,10,10);
-ellipse (x1+60,y1+60,10,10);
+ellipse (x1+10,y1+10,5,5);
+ellipse (x1+30,y1+10,5,5);
+ellipse (x1+20,y1+20,5,5);
+ellipse (x1+10,y1+30,5,5);
+ellipse (x1+30,y1+30,5,5);
 }
 else if (value==6)
 {
-ellipse (x1+20,y1+20,10,10);
-ellipse (x1+60,y1+20,10,10);
-ellipse (x1+20,y1+40,10,10);
-ellipse (x1+60,y1+40,10,10);
-ellipse (x1+20,y1+60,10,10);
-ellipse (x1+60,y1+60,10,10);
+ellipse (x1+10,y1+10,5,5);
+ellipse (x1+30,y1+10,5,5);
+ellipse (x1+10,y1+20,5,5);
+ellipse (x1+30,y1+20,5,5);
+ellipse (x1+10,y1+30,5,5);
+ellipse (x1+30,y1+30,5,5);
 }
 }
   void show(){
     fill(255);
-    rect (x1,y1,50,50);
+    rect (x1,y1,40,40);
     }
 		
 }
