@@ -3,6 +3,7 @@ void setup()
 	size (1336,1100);
 	textSize(30);
 	noLoop();
+	scale(0.5);
 }
 void draw()
 {
