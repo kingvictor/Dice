@@ -1,5 +1,5 @@
 int k = 2;
-int r = 40;
+int r = 20;
 void setup()
 {
 	size (1336,1100);
