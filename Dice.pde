@@ -2,7 +2,7 @@ int k = 2;
 int r = 20;
 void setup()
 {
-	size (3000,3000);
+	size (4000,4000);
 	textSize(30);
 	noLoop();
 }
@@ -10,8 +10,8 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
-for(int y = 50; y<3000; y+=20){
-	for(int x = 50; x<3000; x+=20){
+for(int y = 50; y<4000; y+=20){
+	for(int x = 50; x<4000; x+=20){
   Die dice = new Die(x,y);
   dice.show();
   dice.roll();
