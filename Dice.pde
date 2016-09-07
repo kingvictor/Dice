@@ -38,42 +38,42 @@ class Die //models one single dice cube
 	{
 		if (value==1)
  {
-		ellipse (x1+20, y1+20,k,k);
+		ellipse (x1+10, y1+10,k,k);
  }
 else if (value==2)
 {
-ellipse (x1+10, y1+10,k,k);
-ellipse (x1+30, y1+30,k,k);
+ellipse (x1+5, y1+5,k,k);
+ellipse (x1+15, y1+15,k,k);
 }
 else if (value==3)
 {
+ellipse (x1+5,y1+5,k,k);
 ellipse (x1+10,y1+10,k,k);
-ellipse (x1+20,y1+20,k,k);
-ellipse (x1+30,y1+30,k,k);
+ellipse (x1+15,y1+15,k,k);
 }
 else if (value==4)
 {
-ellipse (x1+10,y1+10,k,k);
-ellipse (x1+30,y1+10,k,k);
-ellipse (x1+10,y1+30,k,k);
-ellipse (x1+30,y1+30,k,k);
+ellipse (x1+5,y1+5,k,k);
+ellipse (x1+15,y1+5,k,k);
+ellipse (x1+5,y1+15,k,k);
+ellipse (x1+15,y1+15,k,k);
 }
 else if (value==5)
 {
+ellipse (x1+5,y1+5,k,k);
+ellipse (x1+15,y1+5,k,k);
 ellipse (x1+10,y1+10,k,k);
-ellipse (x1+30,y1+10,k,k);
-ellipse (x1+20,y1+20,k,k);
-ellipse (x1+10,y1+30,k,k);
-ellipse (x1+30,y1+30,k,k);
+ellipse (x1+5,y1+15,k,k);
+ellipse (x1+15,y1+15,k,k);
 }
 else if (value==6)
 {
-ellipse (x1+10,y1+10,k,k);
-ellipse (x1+30,y1+10,k,k);
-ellipse (x1+10,y1+20,k,k);
-ellipse (x1+30,y1+20,k,k);
-ellipse (x1+10,y1+30,k,k);
-ellipse (x1+30,y1+30,k,k);
+ellipse (x1+5,y1+5,k,k);
+ellipse (x1+15,y1+5,k,k);
+ellipse (x1+5,y1+10,k,k);
+ellipse (x1+15,y1+10,k,k);
+ellipse (x1+5,y1+15,k,k);
+ellipse (x1+15,y1+15,k,k);
 }
 }
   void show(){
