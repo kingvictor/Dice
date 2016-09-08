@@ -19,7 +19,7 @@ for(int y = 0; y<4000; y+=20){
   Die dice = new Die(x,y);
   dice.show();
   dice.roll();
-  w = w + Die.value;
+  w = w + dice.value;
 }
 fill(0.6);
 text("Total" + w, 10, 30);
@@ -41,6 +41,7 @@ class Die //models one single dice cube
 		x1=x;
 		y1=y;
 	}
+
 	void roll()
 	{
 		if (value==1)
