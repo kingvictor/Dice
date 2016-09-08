@@ -11,7 +11,7 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
-	for(int i = 0; i<4000; i+=1){
+	for(int i = 0; i<10000; i+=20){
 	
 	}
 for(int y = 0; y<4000; y+=20){
