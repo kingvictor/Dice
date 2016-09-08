@@ -1,5 +1,6 @@
 int k = 2;
 int r = 20;
+int w = 0;
 void setup()
 {
 	size (4000,4000);
@@ -10,13 +11,18 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
-	  text("Nummber: "+total,360,30);
+	for(int i = 0; i<4000; i+=1){
+	
+	}
 for(int y = 0; y<4000; y+=20){
 	for(int x = 0; x<4000; x+=20){
   Die dice = new Die(x,y);
   dice.show();
   dice.roll();
+  w = w + Die.value;
 }
+fill(0.6);
+text("Total" + w, 10, 30);
 	}
 	
 }
