@@ -10,6 +10,7 @@ void draw()
 {
 	//your code here
 	background(255,255,255);
+	  text("Nummber: "+total,360,30);
 for(int y = 0; y<4000; y+=20){
 	for(int x = 0; x<4000; x+=20){
   Die dice = new Die(x,y);
