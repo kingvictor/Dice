@@ -21,10 +21,9 @@ for(int y = 0; y<4000; y+=20){
   dice.roll();
   w = w + dice.value;
 }
-fill(0.6);
-text("Total" + w, 10, 30);
 	}
-	
+	fill(0.6);
+text("Total" + w, 10, 30);
 }
 void mousePressed()
 {
