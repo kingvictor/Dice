@@ -23,7 +23,7 @@ for(int y = 0; y<4000; y+=20){
 }
 	}
 	fill(0.6);
-text("Total: " 10 + w, 10, 30);
+text("Total: " + w, 10, 30);
 }
 void mousePressed()
 {
