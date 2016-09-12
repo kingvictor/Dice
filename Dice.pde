@@ -19,7 +19,7 @@ for(int y = 0; y<4000; y+=20){
   Die dice = new Die(x,y);
   dice.show();
   dice.roll();
-  w = w + dice.value*19;
+  w = w + dice.value;
 }
 	}
 	fill(0.6);
